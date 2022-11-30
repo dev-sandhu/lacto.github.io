@@ -311,6 +311,11 @@ html {
   border-radius: 0.3rem 0.3rem 0 0;
 }
 
+.card-image2 {
+  width: 45%;
+  border-radius: 0.3rem 0.3rem 0 0;
+}
+
 .front-side {
   text-align: center;
   background-color: var(--white-color);
@@ -475,11 +480,18 @@ html {
   text-transform: uppercase;
   color: var(--grey-color);
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .story-paragraph {
   font-size: 1.8rem;
   color: var(--light-grey-color);
+}
+
+.story-paragraph2 {
+  font-size: 3.3rem;
+  color: var(--light-grey-color);
+  text-align: center;
 }
 
 .story-paragraph::first-letter {
