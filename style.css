@@ -161,25 +161,26 @@ html {
 /* Header */
 .header {
   width: 100%;
-  height: calc(100vh - 7rem);
-  background: linear-gradient(rgba(18, 113, 255, 0.5), rgba(18, 113, 255, 0.3)),
-    url(images/lactobg.jpg) center no-repeat;
+  height: calc(100vh - 1rem);
+  background:
+    url(images/food.jpg) center no-repeat;
   background-size: cover;
   position: relative;
   perspective: 100rem;
+  
 }
 
 .header-text {
-  text-align: center;
+  text-align: left;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   text-shadow: 0 0.3rem 0.5rem var(--grey-color);
 }
 
 .heading {
-  font-size: 8rem;
+  font-size: 5rem;
   color: var(--white-color);
-}
+width: 150%;}
 
 .header-paragraph {
   font-size: 3rem;
@@ -187,6 +188,8 @@ html {
   color: var(--secondary-color);
   max-width: 70rem;
   margin: auto;
+  text-align: center;
+
 }
 
 .logo {
@@ -202,7 +205,7 @@ html {
 .logo h1 span {
   font-size: 2rem;
   font-weight: 900;
-  color: var(--primary-color);
+  color: red;
   text-transform: uppercase;
   background-color: var(--white-color);
   width: 3.5rem;
@@ -241,6 +244,14 @@ html {
 
 .logo h1 span:nth-child(8) {
   animation: drop-letters 5s 0.8s infinite;
+}
+
+.logo h1 span:nth-child(9) {
+  animation: drop-letters 5s 0.9s infinite;
+}
+
+.logo h1 span:nth-child(10) {
+  animation: drop-letters 5s 1.0s infinite;
 }
 
 @keyframes drop-letters {
